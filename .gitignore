@@ -1,4 +1,11 @@
-*.obj
-*.mat
+
 *.pyc
+*.mat
+*.swp
+
+*.png
+*.obj
+PRNet-master/Data/net-data/256_256_resfcn256_weight.data-00000-of-00001
+*.ipynb
+.gitignore.swp
 
