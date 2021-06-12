@@ -12,5 +12,7 @@ modelGen/model/
 
 **/__pycache__
 
+**/*.obj
+
 .gitignore.swp
 
