@@ -3,6 +3,8 @@ import tensorflow.contrib.layers as tcl
 from tensorflow.contrib.framework import arg_scope
 import numpy as np
 
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+
 def resBlock(x, num_outputs, kernel_size = 4, stride=1, activation_fn=tf.nn.relu, normalizer_fn=tcl.batch_norm, scope=None):
     assert num_outputs%2==0 #num_outputs must be divided by channel_factor(2 here)
     with tf.variable_scope(scope, 'resBlock'):

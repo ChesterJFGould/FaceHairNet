@@ -1,1 +1,1 @@
-python demo.py --isKpt True --isShow True
+python3.7 demo.py --isKpt True --isShow True
