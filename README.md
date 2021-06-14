@@ -1,7 +1,9 @@
 # FaceHairNet
 
 ### Prerequisite
-
+Both the latest release of python with Tensorflow2 installed as well as
+[Python3.7](https://www.python.org/downloads/release/python-370/) installed as
+`python3.7` with Tensorflow1 installed.
 
 ### How to run
 `./gen.sh <input image> <output model>`
