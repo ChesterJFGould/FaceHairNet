@@ -5,6 +5,9 @@ Both the latest release of python with Tensorflow2 installed as well as
 [Python3.7](https://www.python.org/downloads/release/python-370/) installed as
 `python3.7` with Tensorflow1 installed.
 
+Download the [HairNet pretrained model](https://drive.google.com/file/d/1jHnkiY2GL-nwACSP8g80RIQI35tt-YDm/view?usp=sharing)
+into modelGen/model.
+
 ### How to run
 `./gen.sh <input image> <output model>`
 
