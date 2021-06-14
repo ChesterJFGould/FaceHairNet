@@ -4,7 +4,9 @@
 
 
 ### How to run
-
+`./gen.sh <input image> <output model>`
+For example:
+`./gen.sh test.jpg test.obj`
 
 ### Licence
 
