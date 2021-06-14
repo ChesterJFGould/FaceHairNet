@@ -1,7 +1,7 @@
 #! /bin/sh
 
 inputImage="$(mktemp).png"
-convert "$1" -scale 256x256 "$inputImage"
+convert "$1" -scale 256x256! "$inputImage"
 
 outputImage="$(realpath $2)"
 
